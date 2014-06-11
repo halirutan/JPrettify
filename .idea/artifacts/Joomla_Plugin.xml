@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact name="Joomla Plugin">
+    <output-path>$PROJECT_DIR$</output-path>
+    <root id="root">
+      <element id="archive" name="plg_system_jprettify1.0.zip">
+        <element id="directory" name="plg_system_jprettify">
+          <element id="dir-copy" path="$PROJECT_DIR$/plg_system_jprettify" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
