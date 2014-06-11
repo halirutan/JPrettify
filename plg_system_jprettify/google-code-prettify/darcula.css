@@ -1,0 +1,162 @@
+.pln {
+    color: #000
+}
+
+@media screen {
+    .str {
+        color: #080
+    }
+
+    .kwd {
+        color: #008
+    }
+
+    .com {
+        color: #800
+    }
+
+    .typ {
+        color: #606
+    }
+
+    .lit {
+        color: #066
+    }
+
+    .pun, .opn, .clo {
+        color: #660
+    }
+
+    .tag {
+        color: #008
+    }
+
+    .atn {
+        color: #606
+    }
+
+    .atv {
+        color: #080
+    }
+
+    .dec, .var {
+        color: #606
+    }
+
+    .fun {
+        color: red
+    }
+}
+
+@media print, projection {
+    .str {
+        color: #060
+    }
+
+    .kwd {
+        color: #006;
+        font-weight: bold
+    }
+
+    .com {
+        color: #600;
+        font-style: italic
+    }
+
+    .typ {
+        color: #404;
+        font-weight: bold
+    }
+
+    .lit {
+        color: #044
+    }
+
+    .pun, .opn, .clo {
+        color: #440
+    }
+
+    .tag {
+        color: #006;
+        font-weight: bold
+    }
+
+    .atn {
+        color: #404
+    }
+
+    .atv {
+        color: #060
+    }
+}
+
+pre.prettyprint {
+    padding: 2px;
+    border: 1px solid #888
+}
+
+ol.linenums {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+li.L0, li.L1, li.L2, li.L3, li.L5, li.L6, li.L7, li.L8 {
+    list-style-type: none
+}
+
+li.L1, li.L3, li.L5, li.L7, li.L9 {
+    background: #eee
+}
+
+.prettyprint.lang-mma .str {
+    color: #BC9458
+}
+
+.prettyprint.lang-mma .mma_msg {
+    color: #CC7832;
+    font-style: italic
+}
+
+.prettyprint.lang-mma .mma_use {
+    color: #CC7832;
+    font-weight: bold
+}
+
+.prettyprint.lang-mma .mma_iot {
+    color: #808080;
+    font-weight: bold
+}
+
+.prettyprint.lang-mma .atn {
+    color: #6897BB;
+}
+
+.prettyprint.lang-mma .com {
+    color: #808080
+}
+
+.prettyprint.lang-mma .kwd {
+    color: #6897BB
+}
+
+.prettyprint.lang-mma .atv {
+    color: #629755;
+    font-style: italic
+}
+
+.prettyprint.lang-mma .tag {
+    color: #C9D7E6;
+    font-weight: bold
+}
+
+.prettyprint.lang-mma .lit {
+    color: #833
+}
+
+.prettyprint.lang-mma .pln {
+    color: #A9B7C6
+}
+
+.prettyprint.lang-mma .pun {
+    color: #C9D7E6
+}
