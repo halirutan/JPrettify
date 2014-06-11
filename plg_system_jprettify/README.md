@@ -1,4 +1,4 @@
-#Highlighting Mathematica on Joomla
+#Highlighting Mathematica code with Joomla
 This was developed by OSTree and extended by halirutan to make highlighting of Mathematica code possible.
 
 JPrettify is a Joomla system plugin to help Joomla webmaster to use Google Code Prettify.
