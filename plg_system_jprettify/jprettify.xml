@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="2.5" method="upgrade" group="system">
+    <name>System - JPrettify</name>
+    <creationDate>09-Feb-2012</creationDate>
+    <author>OSTree Team</author>
+    <authorEmail>ostree.org@gmail.com</authorEmail>
+    <authorUrl>http://www.ostree.org</authorUrl>
+    <copyright>http://www.ostree.org</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>1.0</version>
+    <description>PLG_SYSTEM_JPRETTIFY_XML_DESCRIPTION</description>
+    <updateservers>
+        <server name="System - jprettify update server" type="extension" priority="1">
+            http://www.ostree/joomla-extensions/update/jprettify.xml
+        </server>
+    </updateservers>
+
+    <files>
+        <filename plugin="jprettify">jprettify.php</filename>
+        <filename>index.html</filename>
+    </files>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.plg_system_jprettify.ini</language>
+    </languages>
+    <media>
+        <folder>google-code-prettify</folder>
+    </media>
+    <params/>
+    <config/>
+</extension>
